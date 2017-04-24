@@ -6,17 +6,11 @@ using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
+    //[Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return View();
-        }
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
@@ -28,6 +22,38 @@ namespace MVC.Controllers
         }
 
         public ActionResult Login()
+        {
+            return View();
+        }
+        public ActionResult MyProfile()
+        {
+            return View();
+        }
+        public ActionResult Apartment()
+        {
+            return View();
+        }
+        public ActionResult Bill()
+        {
+            return View();
+        }
+        public ActionResult WaterConsumption()
+        {
+            return View();
+        }
+        public ActionResult RemainingDebts()
+        {
+            return View();
+        }
+        public ActionResult Payments()
+        {
+            return View();
+        }
+        public ActionResult Contracts()
+        {
+            return View();
+        }
+        public ActionResult Employees()
         {
             return View();
         }
